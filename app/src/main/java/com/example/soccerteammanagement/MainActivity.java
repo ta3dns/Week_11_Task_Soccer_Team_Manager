@@ -15,7 +15,6 @@ import androidx.core.view.WindowInsetsCompat;
 * 31.03.2025, Lappeenranta
 *
 * MAIN ACTIVITY
-*
 ***************************************/
 
 
