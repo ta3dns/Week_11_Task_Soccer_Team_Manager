@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title (e.g., Team Name, Player Name, Match Title) -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle 1 (e.g., League, Position, Home Team) -->
+    <TextView
+        android:id="@+id/subtitle1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtitle 1"
+        android:textSize="14sp" />
+
+    <!-- Subtitle 2 (e.g., Country, Team, Score) -->
+    <TextView
+        android:id="@+id/subtitle2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtitle 2"
+        android:textSize="14sp" />
+</LinearLayout>

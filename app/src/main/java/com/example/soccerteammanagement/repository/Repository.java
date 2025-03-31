@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public interface Repository<T> {
-    List<T> items = new ArrayList<>();
 
     List<T> getAll();
 
